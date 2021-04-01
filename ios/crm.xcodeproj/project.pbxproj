@@ -30,20 +30,36 @@
 		00E356EE1AD99517003FC87E /* crmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* crmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crmTests.m; sourceTree = "<group>"; };
+		0CEC2EC826C8467F9DED3595 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		0F18A03C5165E6F66080D641 /* Pods-crm-crmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crm-crmTests.debug.xcconfig"; path = "Target Support Files/Pods-crm-crmTests/Pods-crm-crmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11EE7609732A4E49B64CF190 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* crm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = crm/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = crm/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = crm/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = crm/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = crm/main.m; sourceTree = "<group>"; };
+		2DD8EE0FE8A242CCB43B6500 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		39480D0DE18BCF918C729DDA /* Pods-crm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crm.debug.xcconfig"; path = "Target Support Files/Pods-crm/Pods-crm.debug.xcconfig"; sourceTree = "<group>"; };
 		434EFC0338EB6D83E4C04CCE /* libPods-crm-crmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crm-crmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		452302CD7CE14FD8BB3190EB /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		4FA3CDA7F5DD4C0F93DC73C5 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		54B81D2D17E84FB38DF5698A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		605E35CBC05C4B9888E1DAA8 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = crm/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AF80CCE0E3A1E677BF39D2 /* libPods-crm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		984D373DC33F452AB7207405 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		9CC88182812CEC4366A230B2 /* Pods-crm-crmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crm-crmTests.release.xcconfig"; path = "Target Support Files/Pods-crm-crmTests/Pods-crm-crmTests.release.xcconfig"; sourceTree = "<group>"; };
+		C37D202B693B4CAA8B62EB5D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		D291A922C8A44D56B8065771 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		D7E09BF299856252099F3E13 /* Pods-crm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crm.release.xcconfig"; path = "Target Support Files/Pods-crm/Pods-crm.release.xcconfig"; sourceTree = "<group>"; };
+		D9AB79D5697D483C962FCFFC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		DF39DDD9CD704E28ADCECD75 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E0A6105665314C0A88CC242A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		E785DB40BAF442808DBAAE4D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F41ACAE294BE42C485127297 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		F5787CD9C1AD4B5798E8EA56 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +130,6 @@
 				0F18A03C5165E6F66080D641 /* Pods-crm-crmTests.debug.xcconfig */,
 				9CC88182812CEC4366A230B2 /* Pods-crm-crmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +149,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				417C63987298A1830DF05152 /* Pods */,
+				E653B471BA73444F924A3DE0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +163,29 @@
 				00E356EE1AD99517003FC87E /* crmTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E653B471BA73444F924A3DE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DD8EE0FE8A242CCB43B6500 /* AntDesign.ttf */,
+				605E35CBC05C4B9888E1DAA8 /* Entypo.ttf */,
+				11EE7609732A4E49B64CF190 /* EvilIcons.ttf */,
+				0CEC2EC826C8467F9DED3595 /* Feather.ttf */,
+				D291A922C8A44D56B8065771 /* FontAwesome.ttf */,
+				C37D202B693B4CAA8B62EB5D /* FontAwesome5_Brands.ttf */,
+				E785DB40BAF442808DBAAE4D /* FontAwesome5_Regular.ttf */,
+				54B81D2D17E84FB38DF5698A /* FontAwesome5_Solid.ttf */,
+				F5787CD9C1AD4B5798E8EA56 /* Fontisto.ttf */,
+				4FA3CDA7F5DD4C0F93DC73C5 /* Foundation.ttf */,
+				984D373DC33F452AB7207405 /* Ionicons.ttf */,
+				E0A6105665314C0A88CC242A /* MaterialCommunityIcons.ttf */,
+				452302CD7CE14FD8BB3190EB /* MaterialIcons.ttf */,
+				F41ACAE294BE42C485127297 /* Octicons.ttf */,
+				D9AB79D5697D483C962FCFFC /* SimpleLineIcons.ttf */,
+				DF39DDD9CD704E28ADCECD75 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
