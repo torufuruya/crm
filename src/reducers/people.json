@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "firstName": "Emmanuel",
+    "lastName": "Henri",
+    "phone": "555-555-2342",
+    "company": "LinkedIn",
+    "project": "CRM project",
+    "notes": "This is a note"
+  }
+]
