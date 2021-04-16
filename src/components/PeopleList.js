@@ -27,10 +27,8 @@ const mapStateToProps = state => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: 353,
     flexWrap: 'wrap',
     paddingTop: 20,
-    paddingLeft: 20,
   },
 });
 
