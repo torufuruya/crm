@@ -12,9 +12,7 @@ target 'crm' do
     :hermes_enabled => false
   )
 
-  pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   target 'crmTests' do
     inherit! :complete

@@ -5,9 +5,15 @@ import {
   View,
 } from 'react-native';
 import { connect } from 'react-redux';
+import Icon from 'react-native-vector-icons/EvilIcons';
 import PeopleItem from './PeopleItem';
 
 class PeopleList extends Component {
+  static navigationOptions = {
+    tabBarIcon: ({tintColor}) => (
+      <Icon name={'user'} size={50} color={tintColor} />
+    )
+  };
   render() {
     return (
       <View style={styles.container}>
