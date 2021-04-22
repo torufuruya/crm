@@ -7,6 +7,7 @@ import {
 import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/EvilIcons';
 import PeopleItem from './PeopleItem';
+import PeopleDetail from './PeopleDetail';
 
 class PeopleList extends Component {
   static navigationOptions = {
@@ -14,20 +15,35 @@ class PeopleList extends Component {
       <Icon name={'user'} size={50} color={tintColor} />
     )
   };
-  render() {
-    return (
-      <View style={styles.container}>
+  renderInitialView() {
+    if (this.props.detailView === true) {
+      return (
+        <PeopleDetail />
+      )
+    } else {
+      return (
         <FlatList
           data={this.props.people}
           renderItem={({item}) => <PeopleItem people={item} />}
+          keyExtractor={(item, index) => index.toString()}
         />
+      )
+    }
+  }
+  render() {
+    return (
+      <View style={styles.container}>
+        {this.renderInitialView()}
       </View>
     )
   }
 }
 
 const mapStateToProps = state => {
-  return { people: state.people };
+  return {
+    people: state.people,
+    detailView: state.detailView,
+  };
 }
 
 const styles = StyleSheet.create({

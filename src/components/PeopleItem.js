@@ -3,6 +3,7 @@ import {
   Image,
   StyleSheet,
   Text,
+  TouchableWithoutFeedback,
   View,
 } from 'react-native';
 import { connect } from 'react-redux';
@@ -14,19 +15,21 @@ const theme = getTheme();
 
 const PeopleItem = (props) => {
     return (
-      <View style={[theme.cardStyle, styles.card]}>
-        <Image
-          source={require('../images/background.jpg')}
-          style={[theme.cartImageStyle, styles.image]}
-        />
-        <Icon
-          name={'user'}
-          size={100}
-          style={styles.icon}
-        />
-        <Text style={[theme.cardTitleStyle, styles.title]}>{props.people.firstName} {props.people.lastName}</Text>
-        <Text style={[theme.cardActionStyle, styles.action]}>{props.people.company}</Text>
-      </View>
+      <TouchableWithoutFeedback onPress={() => props.selectPerson(props.people)}>
+        <View style={[theme.cardStyle, styles.card]}>
+          <Image
+            source={require('../images/background.jpg')}
+            style={[theme.cartImageStyle, styles.image]}
+          />
+          <Icon
+            name={'user'}
+            size={100}
+            style={styles.icon}
+          />
+          <Text style={[theme.cardTitleStyle, styles.title]}>{props.people.firstName} {props.people.lastName}</Text>
+          <Text style={[theme.cardActionStyle, styles.action]}>{props.people.company}</Text>
+        </View>
+      </TouchableWithoutFeedback>
     )
 }
 
