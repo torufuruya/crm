@@ -1,7 +1,6 @@
 import React from 'react';
 import type {Node} from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
   useColorScheme,
 } from 'react-native';
@@ -11,12 +10,12 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import reducers from '../reducers/PeopleReducer';
 import Navigation from './Navigation';
-import PeopleList from './PeopleList';
+import thunk from 'redux-thunk';
 
-const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION());
+const store = createStore(reducers, applyMiddleware(thunk));
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -28,7 +27,6 @@ const App: () => Node = () => {
   return (
     <Provider store={store}>
       <Navigation />
-      {/* <PeopleList /> */}
     </Provider>
   );
 };

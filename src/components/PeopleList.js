@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/EvilIcons';
 import PeopleItem from './PeopleItem';
 import PeopleDetail from './PeopleDetail';
+import { loadInitialContacts } from '../actions';
 
 class PeopleList extends Component {
   static navigationOptions = {
@@ -15,6 +16,9 @@ class PeopleList extends Component {
       <Icon name={'user'} size={50} color={tintColor} />
     )
   };
+  componentDidMount() {
+    this.props.loadInitialContacts();
+  }
   renderInitialView() {
     if (this.props.detailView === true) {
       return (
@@ -54,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default connect(mapStateToProps)(PeopleList);
+export default connect(mapStateToProps, { loadInitialContacts })(PeopleList);
